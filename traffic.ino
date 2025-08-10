@@ -29,4 +29,5 @@ emergencyMode = false;
 if (emergencyMode) {
     // Emergency mode
     digitalWrite(RED_LED, LOW);
-
+ digitalWrite(YELLOW_LED, LOW);'
+   
