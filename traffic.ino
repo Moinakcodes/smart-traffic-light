@@ -53,3 +53,5 @@ delay(500);
     digitalWrite(YELLOW_LED, LOW);
 digitalWrite(RED_LED, HIGH);
  updateDisplay("Red Light");
+ delay(5000);
+  }
