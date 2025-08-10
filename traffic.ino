@@ -22,3 +22,5 @@ void loop() {
 
   if (soundLevel > 2000) { // Siren threshold
     emergencyMode = true;
+ } else
+{
