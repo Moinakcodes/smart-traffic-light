@@ -39,10 +39,10 @@ delay(500);
     noTone(BUZZER);
 
  // Green
-    digitalWrite(GREEN_LED, HIGH);
+ digitalWrite(GREEN_LED, HIGH);
  digitalWrite(RED_LED, LOW);
  digitalWrite(YELLOW_LED, LOW);
-   updateDisplay("Green Light");
+updateDisplay("Green Light");
     delay(5000);
  // Yellow
     digitalWrite(GREEN_LED, LOW);
@@ -50,11 +50,12 @@ delay(500);
   updateDisplay("Yellow Light");
  delay(2000);
  // Red
-    digitalWrite(YELLOW_LED, LOW);
+digitalWrite(YELLOW_LED, LOW);
 digitalWrite(RED_LED, HIGH);
- updateDisplay("Red Light");
+updateDisplay("Red Light");
  delay(5000);
   }
 void updateDisplay(String message) {
-  display.clearDisplay();
+display.clearDisplay();
 display.setTextSize(1);
+display.setCursor(0, 0);
