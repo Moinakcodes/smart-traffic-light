@@ -56,3 +56,4 @@ digitalWrite(RED_LED, HIGH);
  delay(5000);
   }
 void updateDisplay(String message) {
+  display.clearDisplay();
