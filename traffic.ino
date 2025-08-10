@@ -46,3 +46,4 @@ delay(500);
     delay(5000);
  // Yellow
     digitalWrite(GREEN_LED, LOW);
+ digitalWrite(YELLOW_LED, HIGH);
