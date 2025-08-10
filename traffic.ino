@@ -40,3 +40,4 @@ delay(500);
 
  // Green
     digitalWrite(GREEN_LED, HIGH);
+ digitalWrite(RED_LED, LOW);
