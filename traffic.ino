@@ -24,3 +24,5 @@ void loop() {
     emergencyMode = true;
  } else
 {
+emergencyMode = false;
+  }
