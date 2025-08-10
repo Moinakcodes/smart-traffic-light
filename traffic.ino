@@ -42,3 +42,5 @@ delay(500);
     digitalWrite(GREEN_LED, HIGH);
  digitalWrite(RED_LED, LOW);
  digitalWrite(YELLOW_LED, LOW);
+   updateDisplay("Green Light");
+    delay(5000);
