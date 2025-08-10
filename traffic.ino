@@ -33,3 +33,4 @@ if (emergencyMode) {
  digitalWrite(GREEN_LED, HIGH);  
  tone(BUZZER, 1000);
 updateDisplay("🚨 EMERGENCY MODE 🚨");
+delay(500);
