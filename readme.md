@@ -18,7 +18,10 @@ An **ESP32-based** intelligent traffic light system that automatically detects e
 - KY-037 Sound Sensor or MAX9814 Microphone Module
 - Red, Yellow, Green LEDs
 - Buzzer
+- 0.96" OLED Display
+- Jumper wires & breadboard
 
+---
 
 
 
