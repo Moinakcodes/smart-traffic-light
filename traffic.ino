@@ -34,3 +34,4 @@ if (emergencyMode) {
  tone(BUZZER, 1000);
 updateDisplay("🚨 EMERGENCY MODE 🚨");
 delay(500);
+ } else {
