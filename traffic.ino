@@ -8,3 +8,5 @@
 
 Adafruit_SSD1306 display(128, 64, &Wire, -1);
 bool emergencyMode = false;
+void setup() {
+  pinMode(RED_LED, OUTPUT);
