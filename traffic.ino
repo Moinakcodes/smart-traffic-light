@@ -31,3 +31,4 @@ if (emergencyMode) {
     digitalWrite(RED_LED, LOW);
  digitalWrite(YELLOW_LED, LOW);'
  digitalWrite(GREEN_LED, HIGH);  
+ tone(BUZZER, 1000);
