@@ -17,3 +17,8 @@ pinMode(YELLOW_LED, OUTPUT);
  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
 }
+void loop() {
+  int soundLevel = analogRead(SOUND_SENSOR);
+
+  if (soundLevel > 2000) { // Siren threshold
+    emergencyMode = true;
