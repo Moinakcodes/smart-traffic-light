@@ -55,3 +55,4 @@ digitalWrite(RED_LED, HIGH);
  updateDisplay("Red Light");
  delay(5000);
   }
+void updateDisplay(String message) {
