@@ -37,3 +37,6 @@ delay(500);
  } else {
   // Normal traffic cycle
     noTone(BUZZER);
+
+ // Green
+    digitalWrite(GREEN_LED, HIGH);
