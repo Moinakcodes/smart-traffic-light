@@ -14,3 +14,6 @@ pinMode(YELLOW_LED, OUTPUT);
   pinMode(GREEN_LED, OUTPUT);
   pinMode(BUZZER, OUTPUT);
   pinMode(SOUND_SENSOR, INPUT);
+ display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+  display.clearDisplay();
+}
