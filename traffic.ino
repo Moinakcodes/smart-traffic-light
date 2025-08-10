@@ -12,3 +12,5 @@ void setup() {
   pinMode(RED_LED, OUTPUT);
 pinMode(YELLOW_LED, OUTPUT);
   pinMode(GREEN_LED, OUTPUT);
+  pinMode(BUZZER, OUTPUT);
+  pinMode(SOUND_SENSOR, INPUT);
