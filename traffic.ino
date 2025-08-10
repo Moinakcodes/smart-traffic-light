@@ -57,3 +57,4 @@ digitalWrite(RED_LED, HIGH);
   }
 void updateDisplay(String message) {
   display.clearDisplay();
+display.setTextSize(1);
