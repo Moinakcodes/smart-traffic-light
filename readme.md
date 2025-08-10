@@ -13,6 +13,8 @@ An **ESP32-based** intelligent traffic light system that automatically detects e
 
 ---
 
+## 🛠 Components
+- ESP32 Dev Board
 
 
 
