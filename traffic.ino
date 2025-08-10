@@ -26,3 +26,7 @@ void loop() {
 {
 emergencyMode = false;
   }
+if (emergencyMode) {
+    // Emergency mode
+    digitalWrite(RED_LED, LOW);
+
