@@ -59,3 +59,4 @@ void updateDisplay(String message) {
 display.clearDisplay();
 display.setTextSize(1);
 display.setCursor(0, 0);
+display.println(message);
