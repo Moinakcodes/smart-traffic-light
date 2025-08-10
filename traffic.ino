@@ -35,3 +35,5 @@ if (emergencyMode) {
 updateDisplay("🚨 EMERGENCY MODE 🚨");
 delay(500);
  } else {
+  // Normal traffic cycle
+    noTone(BUZZER);
