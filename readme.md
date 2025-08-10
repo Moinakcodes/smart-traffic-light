@@ -15,6 +15,7 @@ An **ESP32-based** intelligent traffic light system that automatically detects e
 
 ## 🛠 Components
 - ESP32 Dev Board
+- KY-037 Sound Sensor or MAX9814 Microphone Module
 
 
 
